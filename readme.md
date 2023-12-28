@@ -26,3 +26,12 @@ The never keyword is used to indicate that a function will not return anything, 
 1) function that always throws an error
 2) function that has an infinite loop
 3) variable that can never have a value
+
+---
+
+### 09 Arrays Types
+Arrays are a type of object that can store multiple values of the same data type. Arrays in TS are typed, which means you can specify the type of values that an array can hold.
+
+###### // Two Types
+1) Using the square bracket notation [] to indicate an array of a specific type
+2) Using the generic Array<type> notation to indicate an array of a specific type
