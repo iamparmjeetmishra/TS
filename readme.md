@@ -11,3 +11,6 @@ Harmful. Harder to catch type related bugs during development.
 
 ### 04 Function Parameters Annotations
 Function Parameter annotations in TS are used to specify the expected types of the parameters that a function takes.
+
+
+### 06 Function Return Anno
