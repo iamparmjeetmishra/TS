@@ -39,3 +39,7 @@ Arrays are a type of object that can store multiple values of the same data type
 
 ### 10 Multi Dimensional Array
 It is an array that contains other arrays as its elements. It can be defined using the same notation as one dimensional arrays, but with nested square brackets
+
+
+### 11 Objects
+An object in TS is a structured data type that represents a collection of properties, each with a key and an associated value. The properties of an object can have specific types, and the object itself can be annotated with a type, often defined using an interface or a type alias. TS uses structural typing, meaning that the shape of an object (its structure or properties) is what matters for type compatibility.
