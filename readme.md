@@ -47,3 +47,10 @@ An object in TS is a structured data type that represents a collection of proper
 ### 12 Type Aliases
 A type Alias is a way to create a new name for an existing type. It allows you to define a custom type that refers to another type and give it a more meaningful or descriptive name.
 Type aliases are defined using the type keyword, followed by the name of the alias, an equal sign (=), and the type it refers to.
+
+
+### 13 Optional and ReadOnly Properties
+You can make a certain property optional in an object type by adding a question mark (?) after the property name.
+For eg, let's say you have an object type for a person with name, age, and email properties, but you want to make the email property optional. You can do this by adding a question marka after the email property.
+
+##### ReadOnly Properties
