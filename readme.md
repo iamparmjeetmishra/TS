@@ -35,3 +35,7 @@ Arrays are a type of object that can store multiple values of the same data type
 ###### // Two Types
 1) Using the square bracket notation [] to indicate an array of a specific type
 2) Using the generic Array<type> notation to indicate an array of a specific type
+
+
+### 10 Multi Dimensional Array
+It is an array that contains other arrays as its elements. It can be defined using the same notation as one dimensional arrays, but with nested square brackets
