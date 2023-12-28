@@ -43,3 +43,7 @@ It is an array that contains other arrays as its elements. It can be defined usi
 
 ### 11 Objects
 An object in TS is a structured data type that represents a collection of properties, each with a key and an associated value. The properties of an object can have specific types, and the object itself can be annotated with a type, often defined using an interface or a type alias. TS uses structural typing, meaning that the shape of an object (its structure or properties) is what matters for type compatibility.
+
+### 12 Type Aliases
+A type Alias is a way to create a new name for an existing type. It allows you to define a custom type that refers to another type and give it a more meaningful or descriptive name.
+Type aliases are defined using the type keyword, followed by the name of the alias, an equal sign (=), and the type it refers to.
