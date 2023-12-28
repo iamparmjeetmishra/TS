@@ -14,3 +14,7 @@ Function Parameter annotations in TS are used to specify the expected types of t
 
 
 ### 06 Function Return Anno
+
+
+### Void in TS
+Void is a type that represents that absence of any value. It is often used as the return type for functions that do not return a value.
