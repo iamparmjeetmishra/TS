@@ -54,3 +54,7 @@ You can make a certain property optional in an object type by adding a question 
 For eg, let's say you have an object type for a person with name, age, and email properties, but you want to make the email property optional. You can do this by adding a question marka after the email property.
 
 ##### ReadOnly Properties
+
+
+### 14 Intersection Types
+An intersection type is a way to combine multiple types into a sinlge type that includes all the properties and methods of each constituent type. An intersection type is denoted by the & symbol
