@@ -64,4 +64,5 @@ An intersection type is a way to combine multiple types into a sinlge type that 
 Unions are use to declare a type that can have one of several possible types. Unions are useful when we want to allow a variable or param to accep multiple types.
 //The Syntax for defining a union type in TS uses the pipe symbol . "|"
 
-### 16 
+### 16 Literal Types
+LT allow you to specify a value that can only be one specific literal value. This means that a variable with a literal type can only have one specific value and no other.
