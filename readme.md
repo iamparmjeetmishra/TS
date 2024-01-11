@@ -69,3 +69,7 @@ LT allow you to specify a value that can only be one specific literal value. Thi
 
 ### 16 Tuples
 // Tuples is a type that represents an array with a fixed number of elements, where each element can have a different type. The order of the types in the tuple definition corresponds to the order of the values in the actual array. Tuples are similar to arrays, but they have a specific structure and can be used to model finite sequence with know lengths.
+
+### 18 Enums
+// Enum is a way to define a set of named constants. Enums allow you to define a collection of related values that can be used interchangeably in your code.
+
