@@ -75,3 +75,12 @@ LT allow you to specify a value that can only be one specific literal value. Thi
 
 ### 19 Class Properties Annotations
 // we can annotate class properties with a type. This allows you to define the data type of the proeprty and ensure that it is always consistent.
+
+
+### 20 Access Modifiers
+In TS, we can use access modifiers to control the visibility of class members ( properties and methods). Access Modifiers determine the way in which class members can be accessed from within and outside the class.
+
+There are three types of access modifiers in TS
+- Public: accessible from anywhere (default)
+- Private: 
+- Protected
