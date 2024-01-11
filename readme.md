@@ -73,3 +73,5 @@ LT allow you to specify a value that can only be one specific literal value. Thi
 ### 18 Enums
 // Enum is a way to define a set of named constants. Enums allow you to define a collection of related values that can be used interchangeably in your code.
 
+### 19 Class Properties Annotations
+// we can annotate class properties with a type. This allows you to define the data type of the proeprty and ensure that it is always consistent.
