@@ -58,3 +58,10 @@ For eg, let's say you have an object type for a person with name, age, and email
 
 ### 14 Intersection Types
 An intersection type is a way to combine multiple types into a sinlge type that includes all the properties and methods of each constituent type. An intersection type is denoted by the & symbol
+
+
+### 15 Unions
+Unions are use to declare a type that can have one of several possible types. Unions are useful when we want to allow a variable or param to accep multiple types.
+//The Syntax for defining a union type in TS uses the pipe symbol . "|"
+
+### 16 
