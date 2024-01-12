@@ -99,3 +99,5 @@ Once an interface is declared, it cannot be directly modified. However, TS allow
 
 Declaration mergin in TS refers to the ability to extend or augment an existing declaration, including interfaces. This can be useful when you want to add new properties or methods to an existing interface without modifying the orignal declaration.
 
+### 24 Generics
+In TS, generics allow you to create reusable components that cna work with a variety of types. Generics make it possible for you to define function, classes, and interfaces that can work with different data types without having to duplicate code.
