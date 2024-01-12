@@ -87,3 +87,10 @@ There are three types of access modifiers in TS
 
 ### 21 Getters & setters
  Getter & setter are used to access and modify class properties. It allows you to define a property in a class that looks like a simple variable from the outside but internally has additional logic for getting and setting the value.
+
+ ### 22 Interface
+Interface is a way to define a contact for the shape of an object. It specifies the properties and their types that an object must have. Interfaces are a powerful tool for enforcing a certain structure in your code.
+
+While Interfaces are commonly used to define the structure of objects, they are not limited to just objects. Interfaces in TS can also be used to describe the shape of functions and classes.
+
+
