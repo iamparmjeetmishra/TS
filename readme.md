@@ -84,3 +84,6 @@ There are three types of access modifiers in TS
 - Public: accessible from anywhere (default)
 - Private: 
 - Protected
+
+### 21 Getters & setters
+ Getter & setter are used to access and modify class properties. It allows you to define a property in a class that looks like a simple variable from the outside but internally has additional logic for getting and setting the value.
