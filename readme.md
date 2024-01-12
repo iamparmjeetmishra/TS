@@ -94,3 +94,8 @@ Interface is a way to define a contact for the shape of an object. It specifies 
 While Interfaces are commonly used to define the structure of objects, they are not limited to just objects. Interfaces in TS can also be used to describe the shape of functions and classes.
 
 
+###  23 Declaration Merging
+Once an interface is declared, it cannot be directly modified. However, TS allows what is informally referred to as 'declaration mergin' or 'interface extension', which is often misconstrued as 're-opening'.
+
+Declaration mergin in TS refers to the ability to extend or augment an existing declaration, including interfaces. This can be useful when you want to add new properties or methods to an existing interface without modifying the orignal declaration.
+
