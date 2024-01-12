@@ -9,15 +9,24 @@ interface Person {
     firstName: string;
     lastName: string;
     age: number;
+    sayHello(): void;
 }
 
 // usage
-const egPerson: Person = {
-    firstName: 'John',
-    lastName: 'Smith',
-    age: 20,
+function greet(person: Person)  {
+    console.log(`Hello ${person.firstName} ${person.lastName}`)
+    person.sayHello();
 }
-console.log(egPerson)
+
+const John: Person = {
+    firstName: 'John',
+    lastName: 'Diem',
+    age: 22,
+    sayHello() {
+        console.log('hello')
+    }
+}
+greet(John) 
 
 // Interface for a function
 interface MathOperation {
@@ -55,3 +64,31 @@ class Car implements Vehicle {
 const myCar = new Car()
 myCar.start()
 myCar.stop()
+
+
+
+// Extending Interface
+
+interface MovieDetails {
+    readonly name: string;
+    ratings: number;
+    printMovieINfo(name: string, price: number, ratings: number): string | number
+}
+
+interface MovieGenra extends MovieDetails {
+    genra: string;
+}
+
+
+const movie1: MovieGenra = {
+    name: 'Star wars',
+    genra: 'Action',
+    ratings: 8.9,
+    printMovieINfo(name: string, price: number, ratings: number): string | number {
+        return `Movie Name: ${name}, Price: ${price}, Ratings: ${ratings}`
+    }
+}
+
+const res = movie1.printMovieINfo('John Wick', 100, 8)
+
+console.log(res)
