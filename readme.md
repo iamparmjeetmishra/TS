@@ -101,3 +101,15 @@ Declaration mergin in TS refers to the ability to extend or augment an existing 
 
 ### 24 Generics
 In TS, generics allow you to create reusable components that cna work with a variety of types. Generics make it possible for you to define function, classes, and interfaces that can work with different data types without having to duplicate code.
+
+
+### 25 Type Narrowing
+Type Narrowing is the process of refining a variable's type within a conditional block of code. This allows you to write more precise and type-safe code.
+
+TS Provides several mechanisms for narrowing types
+- 1) Type guards
+- 2) The instance of operator
+- 3) Intersection types
+
+Type guards
+- Type Guard are mechanisms that help TS understand and narrow down the types more precisely. One common type guard is the typeof operator
