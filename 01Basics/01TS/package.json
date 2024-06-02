@@ -1,5 +1,18 @@
 {
   "devDependencies": {
     "typescript": "^5.4.5"
-  }
+  },
+  "name": "01ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node src/add.js",
+    "poststart": "echo \"Goodby\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
